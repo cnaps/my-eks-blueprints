@@ -12,7 +12,6 @@ export default class PipelineConstruct extends Construct {
 
     const addOn = new blueprints.ArgoCDAddOn();
 
-
     const blueprint = blueprints.EksBlueprint.builder()
     .account(account)
     .region(region)
